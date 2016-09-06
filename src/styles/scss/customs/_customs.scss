@@ -1,0 +1,133 @@
+/**
+ *-----------------------------------------------------------------------------------------
+ * Customizamos Estilos
+ *-----------------------------------------------------------------------------------------
+ */
+
+body,
+button,
+input,
+textarea ,
+select {
+    font-family: $base-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+a {
+    text-decoration: none;
+    &:focus{
+        outline: none;
+    }
+}
+
+h1 {
+    font-size: 1.8rem;
+
+    @include respond-to(md) {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-size: 1.4rem;
+
+    @include respond-to(md) {
+        font-size: 1.6rem;
+    }
+}
+
+h3 {
+    font-size: 1.2rem;
+
+    @include respond-to(md) {
+        font-size: 1.4rem;
+    }
+}
+
+h4 {
+    font-size: 1.1rem;
+
+    @include respond-to(md) {
+        font-size: 1.2rem;
+    }
+}
+
+.custom_title{
+    text-align: left;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-style: italic !important;
+    font-weight: 300 !important;
+    font-size: 1.8rem;
+    padding-left: 1.5rem;
+    @include respond-to(md) {
+        font-size: 2.2rem;
+    }
+}
+.section_title{
+    background: url('http://i0.wp.com/cerroverde.ideapruebas.com/wp-content/uploads/2016/08/bg-heading.png');
+    background-repeat: no-repeat;
+    color: $white;
+    @extend .custom_title;
+}
+.title__borderbottom{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 2rem;
+    &>div.borderbottom{
+        width: 100px;
+        &:first-child{
+            border-top: 5px solid lightgray;
+        }
+        &:last-child{
+            border-top: 5px solid $color-theme;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.show-block{
+    display: block;
+    transition: all 0.7s ease;
+}
+
+.show-inline{
+    display: inline;
+    transition: all 0.7s ease;
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    margin-left: 0;
+    transition: all 0.7s ease;
+}
+
+noscript iframe.google-tag {
+    display: none;
+    visibility: hidden;
+}
+
+// Eliminar transparencia blanca al cargar página
+.blockUI,
+.blockUI.blockMsg.blockElement,
+.blockUI.blockOverlay{
+    display: none !important;
+}

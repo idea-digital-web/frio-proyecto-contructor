@@ -1,0 +1,62 @@
+/**
+ *-----------------------------------------------------------------------------------------
+ * Single Product
+ *-----------------------------------------------------------------------------------------
+ */
+
+.single-product div.product{
+	@include respond-to(md) {
+		.images{
+			width: 39%;
+			margin-right: 1%;
+			>a{
+				img{
+					width: 450px;
+				}
+			}
+			>.thumbnails{
+				display: flex !important;
+				flex-flow: row wrap;
+				.zoom{
+					width: 95px !important;
+					// height: 100px;
+					margin: 0 0.4rem 0.4rem 0 !important;
+					float: none !important;
+					&.last{
+						float: none;
+					}
+				}
+			}
+		}
+		.summary{
+			width: 60%;
+			>h1{
+				width: 80%;
+			}
+			>p.stock{
+				display: none;
+			}
+		}
+		p.price{
+			font-size: 3rem !important;
+			margin-bottom: 1rem !important;
+			color: $price-color;
+			>del{
+				font-size: 75%;
+			}
+			>small{
+				display: block;
+				font-size: 50%;
+			}
+		}
+		form.cart{
+			.button{
+				float: left !important;
+				background-color: $callto-action-color !important;
+				&:hover{
+					background-color: $callto-action-color-hover !important;
+				}
+			}
+		}
+	}
+}

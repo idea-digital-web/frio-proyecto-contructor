@@ -1,0 +1,38 @@
+/**
+ *-----------------------------------------------------------------------------------------
+ * FOOTER CREDITS
+ *-----------------------------------------------------------------------------------------
+ */
+.site-footer__credits{
+	display: none;
+	@include respond-to(md) {
+		display: block;
+		background-color: $footer-bottom-bar-background-color;
+		color: $white;
+		text-align: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		span{
+			display: block;
+			@include respond-to(lg) {
+				display: inline;
+				&:before {
+					content: "|";
+					color: $white;
+					margin: 0 5px 0 0;
+					font-weight: normal;
+				}
+				&:first-child:before{
+					content: "";
+				}
+			}
+		}
+	}
+	& a{
+		color: $color-theme;
+		font-weight: 300;
+		&:hover{
+			color: $color-theme-hover;
+		}
+	}
+}

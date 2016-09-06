@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/**
+ * Post Formats
+ */
+
+.blog .format-aside, .archive .format-aside {
+	.entry-title {
+		display: none;
+	}
+}

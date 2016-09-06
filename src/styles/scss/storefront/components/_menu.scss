@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/**
+ * Main Naivgation
+ */
+
+/**
+ * General Menu Styles
+ */
+.secondary-navigation {
+	display: none;
+}
+
+button.menu-toggle {
+	cursor: pointer;
+	text-align: left;
+	float: right;
+	position: relative;
+	border: 2px solid transparent;
+	box-shadow: none;
+	border-radius: 2px;
+	background-image: none;
+	padding: .618em .857em .618em 2.618em;
+	font-size: .857em;
+
+	&:hover {
+		background-image: none;
+	}
+
+	span:before {
+		@include transition(all,ease,.2s);
+	}
+
+	&:before,
+	&:after,
+	span:before {
+		content: "";
+		display: block;
+		height: 2px;
+		width: 14px;
+		position: absolute;
+		top: 50%;
+		left: 1em;
+		margin-top: -1px;
+		@include transition(all,ease,.2s);
+		border-radius: 3px;
+	}
+
+	&:before {
+		@include transform(translateY(-4px));
+	}
+
+	&:after {
+		@include transform(translateY(4px));
+	}
+}
+
+.toggled {
+	button.menu-toggle {
+		&:before,
+		&:after {
+			@include transform(translateY(0));
+			@include transform(rotate(45deg));
+		}
+
+		&:after {
+			@include transform(rotate(-45deg));
+		}
+
+		span:before {
+			opacity: 0;
+		}
+	}
+}
+
+.primary-navigation {
+	display: none;
+}
+
+.main-navigation {
+	@include clearfix;
+	width: 175%;
+	margin-right: 0 !important;
+
+	.menu {
+		clear: both;
+	}
+}
+
+.handheld-navigation,
+.nav-menu,
+.main-navigation div.menu > ul:not(.nav-menu) {
+	overflow: hidden;
+	max-height: 0; /* We have to use max-height because `height` isn't animatable */
+	@include transition(all,ease,.8s);
+}
+
+.handheld-navigation {
+	clear: both;
+
+	ul {
+		margin: 0;
+		li{
+			text-align: left;
+			padding-left: 1rem;
+			a{
+				color: $black !important;
+				&:hover{
+					color: $color-theme-hover !important;
+				}
+			}
+		}
+	}
+}
+
+.main-navigation.toggled {
+	.handheld-navigation,
+	.menu > ul:not(.nav-menu),
+	ul[aria-expanded=true] {
+		max-height: 1750px;
+	}
+}
+
+.main-navigation ul {
+	margin-left: 0;
+	list-style: none;
+	margin-bottom: 0;
+
+	ul {
+		display: block;
+		margin-left: 1.387em;
+	}
+
+	li {
+		a {
+			padding: .857em 0;
+			display: block;
+			color: $white;
+
+			&:before {
+				@include fa-icon();
+				content: "\f0f6";
+				margin-right: .53em;
+			}
+
+			&:hover {
+				color: #e6e6e6;
+			}
+		}
+	}
+}
+
+@include susy-media($desktop) {
+	.menu-toggle,
+	.handheld-navigation,
+	.main-navigation.toggled .handheld-navigation,
+	.main-navigation.toggled div.menu {
+		display: none;
+	}
+
+	.primary-navigation {
+		display: block;
+	}
+
+	.main-navigation,
+	.secondary-navigation {
+		clear: both;
+		display: block;
+		width: 100%;
+
+		// first level
+		ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+			display: block;
+
+			li {
+				position: relative;
+				display: inline-block;
+				text-align: left;
+
+				a {
+					display: block;
+
+					&:before {
+						display: none;
+					}
+				}
+
+				// link hover
+				&:hover,
+				&.focus {
+					> ul {
+						left: 0;
+						display: block;
+
+						li {
+							> ul {
+								display: none; // display: none; is required to make dropdowns work on touch devices
+							}
+
+							&:hover,
+							&.focus {
+								> ul {
+									left: 100%;
+									top: 0;
+									display: block;
+								}
+							}
+						}
+					}
+				}
+
+			}
+
+			// second level
+			ul {
+				float: left;
+				position: absolute;
+				top: 100%;
+				z-index: 99999;
+				display: none; // display: none; is required to make dropdowns work on touch devices
+
+				li {
+					width: 100%;
+					a {
+						width: 100%;
+						color: $white;
+					}
+				}
+			}
+		}
+
+	}
+
+	ul.menu {
+		li {
+			&.current-menu-item {
+				> a {
+					color: $color-theme;
+					font-weight: 700 !important;
+				}
+			}
+		}
+	}
+
+	/**
+	 * Primary Navigation
+	 */
+	.storefront-primary-navigation {
+		clear: both;
+		@include clearfix;
+		background: $black;
+		margin-left: -99em;
+		margin-right: -99em;
+		padding-left: 99em;
+		padding-right: 99em;
+		margin-top: 1rem;
+	}
+
+	.main-navigation {
+		ul.menu,
+		ul.nav-menu {
+			max-height: none;
+			overflow: visible;
+
+			> li {
+				// The first level menu item
+				&.current-menu-item>a,
+				&.current_page_item>a{
+					color: $color-theme;
+					font-weight: 700 !important;
+					&:hover{
+						color: $white !important;
+					}
+				}
+				> a {
+					padding: 1em;
+					text-transform: uppercase;
+					box-sizing: border-box;
+					// border-top: 5px solid transparent;
+					// border-bottom: 5px solid transparent;
+					font-weight: bold !important;
+					font-size: 1rem;
+					font-style: italic;
+					color: $white;
+					@include respond-to(lg) {
+						font-size: 1.5rem;
+					}
+
+					&.current-menu-item,
+					&.current_page_item{
+						color: $color-theme;
+						font-weight: 700 !important;
+						&:hover{
+							color: $color-theme-hover !important;
+						}
+					}
+
+					&:hover{
+						// color: $color-theme-hover !important;
+						// border-top: 5px solid $color-theme-hover;
+						background-color: $color-theme-hover;
+					}
+
+					&:before {
+						content: "";
+						display: block;
+						width: 2px;
+						// height: 30%;
+						height: 100%;
+						background-color: $secondary-color-theme;
+						position: absolute;
+						// top: 37.5%;
+						top: 0%;
+						left: -3px;
+					}
+				}
+
+				&:first-child {
+					margin-left: -1em;
+				}
+
+				&.menu-item-has-children,
+				&.page_item_has_children {
+					&:hover {
+						&:after {
+							display: block;
+						}
+					}
+
+					> a {
+						&:after {
+							// The dropdown indicator
+							@include fa-icon();
+							content: "\f107";
+							margin-left: 1em;
+						}
+					}
+				}
+			}
+
+			> li:first-child a:before {
+				display: none;
+			}
+
+			ul {
+				// Dropdowns
+				margin-left: 0;
+
+				li {
+					a {
+						padding: .857em 1.387em;
+						font-weight: 400;
+						font-size: 1.2rem;
+					}
+
+					&:last-child {
+						border-bottom: 0;
+					}
+
+					&.menu-item-has-children,
+					&.page_item_has_children {
+						> a {
+							&:after {
+								// The dropdown indicator
+								@include fa-icon();
+								content: "\f105";
+								float: right;
+								line-height: 1.618;
+							}
+						}
+					}
+				}
+
+				ul {
+					margin-left: 0;
+					box-shadow: none;
+				}
+
+				a:hover,
+				li:hover > a {
+					background-color: rgba(0,0,0,0.025);
+				}
+			}
+		}
+
+		a {
+			padding: 0 1em 2.244em;
+		}
+	}
+
+	/**
+	 * Secondary Navigation
+	 */
+	.secondary-navigation {
+		clear: none;
+		line-height: 1;
+		width: 100% !important;
+		margin: 0 auto !important;
+
+		.menu {
+			font-size: .857em;
+			width: 100%;
+			text-align: center;
+
+			> li:hover > a {
+				text-decoration: none;
+				color: $color-theme-hover;
+			}
+
+			> li > a {
+				position: relative;
+				color: $color_font_dark;
+				text-transform: uppercase;
+
+
+				&:before {
+					content: "";
+					display: block;
+					width: 2px;
+					height: 30%;
+					background-color: rgba(#000,0.5);
+					position: absolute;
+					top: 37.5%;
+					left: -3px;
+				}
+			}
+
+			> li:first-child a:before {
+				display: none;
+			}
+
+			ul {
+				a {
+					padding: .326em .857em;
+					background: rgba(#000,0.05);
+				}
+
+				li:first-child a {
+					padding-top: 1em;
+				}
+
+				li:last-child a {
+					padding-bottom: 1em;
+				}
+
+				ul {
+					margin-top: -.618em;
+				}
+			}
+
+			a {
+				padding: 1.387em .857em;
+				font-weight: 300;
+				color: lighten( $color_body, 20% );
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

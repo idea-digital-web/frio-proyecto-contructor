@@ -1,0 +1,34 @@
+/**
+ *-----------------------------------------------------------------------------------------
+ * Custom FROMCRAFT
+ *-----------------------------------------------------------------------------------------
+ */
+
+html .formcraft-css .powered-by{
+	display: none;
+}
+i.no-icon{
+	display: none;
+}
+.form-element-html .submit-button{
+	background-color: $color-theme !important;
+	&:hover{
+		background-color: $color-theme-hover !important;
+	}
+}
+/** 
+ * Form Footer
+  * Agregar el ID del fc-form- correspondiente
+ */
+footer .formcraft-css .fc-form{
+	&.fc-form-1{
+		height: 350px !important;
+		width: 85% !important;
+		margin: 0 auto;
+	}
+	& .form-element .form-element-html{
+		padding: 0;
+		padding-right: 1rem;
+		margin-bottom: 0.5rem !important;
+	}
+}

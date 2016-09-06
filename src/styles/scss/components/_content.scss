@@ -1,0 +1,81 @@
+/**
+ *-----------------------------------------------------------------------------------------
+ * Custom Contenido
+ *-----------------------------------------------------------------------------------------
+ */
+header.entry-header>h1.entry-title,
+header.page-header>h1.page-title,
+main.site-main>h1.page-title,
+main.site-main>h2.section-title,
+.related.products>h2,
+.cross-sells>h2,
+.up-sells>h2,
+.page-content>h2{
+	@extend .section_title;
+}
+.cross-sells>h2{
+	font-size: 1.65rem;
+}
+.col-1>h2,
+.col-2>h2{
+	@extend .custom_title;
+}
+
+// Borde inferior de los títulos de las secciones
+.section-title__borderbottom{
+	@extend .title__borderbottom;
+}
+
+// Banner del content antes del Google Maps
+.content-area__slides{
+	display: flex;
+	flex-direction: column;
+	& div {
+		margin: 0.5rem 0;
+		width: 100%;
+		@include respond-to(md) {
+			margin: 0 0.5rem;
+			width: (33%);
+		}
+		& img{
+			width: 100%;
+		}
+	}
+	@include respond-to(md) {
+		flex-direction: row;
+	}
+}
+a.woocommerce-Button.button{
+	background-color: $color-theme;
+	border-color: $color-theme;
+	line-height: 50px ;
+	padding-right: 1rem ;
+	font-size: 1.2rem;
+	&:hover{
+		background-color: $color-theme-hover;
+		border-color: $color-theme-hover;
+	}
+}
+
+// Responsive
+.storefront-on-sale-products,
+.storefront-best-selling-products,
+.storefront-popular-products,
+.storefront-featured-products{
+	display: none;
+	@include respond-to(handheld) {
+		display: block;
+	}
+}
+// Eliminando etiqueta de "Oferta" y "Precio Tachado"
+.storefront-recent-products,
+.storefront-best-selling-products,
+.storefront-popular-products,
+.storefront-featured-products{
+	span.onsale,
+	span.price>del{
+		@include respond-to(handheld) {
+			display: none !important;
+		}
+	}
+}

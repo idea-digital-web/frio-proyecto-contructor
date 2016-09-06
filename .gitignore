@@ -1,0 +1,11 @@
+node_modules
+bower_components
+dist
+public
+*.tmp.*
+.sass-cache
+.idea
+logs
+*.log
+npm-debug.log*
+.publish
