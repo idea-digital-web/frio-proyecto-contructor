@@ -11,6 +11,7 @@ import flexsliderProducts from './lib/flexsliderProducts'
 import addViewDetails from './lib/addViewDetails'
 import changueAttr from './lib/changueAttr'
 import customStickyNavbar from './lib/customStickyNavbar'
+import singleProduct from './lib/singleProduct'
 
 (() => {
   'use strict'
@@ -31,5 +32,6 @@ import customStickyNavbar from './lib/customStickyNavbar'
     addViewDetails()
     changueAttr()
     customStickyNavbar()
+    singleProduct()
   }
 })()
