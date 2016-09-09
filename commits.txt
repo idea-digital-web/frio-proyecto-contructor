@@ -1,3 +1,9 @@
+commit 37e0ebefaf95ed935e042b03ff60e29ef6ed33ab
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 8 17:46:50 2016 -0400
+
+    Arreglado single product
+
 commit 1c7609e258a6fd8277582d31fd7a88d07778fd40
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Sep 8 12:56:10 2016 -0400
