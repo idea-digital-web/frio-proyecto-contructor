@@ -1,3 +1,9 @@
+commit 35ee0383f58ac28b79d5e5242aeb6dab6cb7c3a2
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Sep 9 17:47:41 2016 -0400
+
+    Eliminado titulo storefront_page_header
+
 commit 37e0ebefaf95ed935e042b03ff60e29ef6ed33ab
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Sep 8 17:46:50 2016 -0400
