@@ -1,3 +1,9 @@
+commit ffcb8220c456aca7e7b31c2d7b8c0630ecbd7d3c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 14 18:00:21 2016 -0400
+
+    Estilos a captcha
+
 commit 6c15873d7eb728a9531b49dff7d77a6836e778d3
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 14 17:27:15 2016 -0400
