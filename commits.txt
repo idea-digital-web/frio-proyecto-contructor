@@ -1,3 +1,9 @@
+commit 28d8e6e0b45ae91137f0c406601c59e60cbb8839
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Sep 13 23:45:44 2016 -0400
+
+    Optimizando
+
 commit 52e44ceb9e99dd3f7da0f57ba02186685750de62
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Sep 12 13:41:40 2016 -0400
