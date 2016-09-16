@@ -1,3 +1,9 @@
+commit 918b13e1bec73ebc918e9e4b0ecc481e6b5aa3f5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Sep 16 17:31:30 2016 -0400
+
+    Cambiado datos del cliente
+
 commit b224de9692e6eea943207f1a4f2f82bdf948271f
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Sep 16 10:50:11 2016 -0400
