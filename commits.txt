@@ -1,3 +1,9 @@
+commit 6f76e6f50c994a02e94b5518f4721c01ad8dd8cc
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Sep 16 09:29:47 2016 -0400
+
+    Agregado hook slider principal
+
 commit ff34d033a733562f55339f5edd8709e9a80a30b2
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Sep 16 07:10:27 2016 -0400
