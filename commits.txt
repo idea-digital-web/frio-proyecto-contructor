@@ -1,3 +1,9 @@
+commit b224de9692e6eea943207f1a4f2f82bdf948271f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Sep 16 10:50:11 2016 -0400
+
+    Agregado banner-principal
+
 commit 6f76e6f50c994a02e94b5518f4721c01ad8dd8cc
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Sep 16 09:29:47 2016 -0400
