@@ -1,3 +1,9 @@
+commit 44d358b21a856a22fb361b0327e1ce89600c06b3
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Sep 15 16:52:53 2016 -0400
+
+    Optimizando restringir login
+
 commit 7b1d39ac5606cb0cd11002355483109e5198628f
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Sep 15 16:30:33 2016 -0400
