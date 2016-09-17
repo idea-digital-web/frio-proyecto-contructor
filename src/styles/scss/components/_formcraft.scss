@@ -26,9 +26,14 @@ footer .formcraft-css .fc-form{
 		width: 85% !important;
 		margin: 0 auto;
 	}
-	& .form-element .form-element-html{
-		padding: 0;
-		padding-right: 1rem;
-		margin-bottom: 0.5rem !important;
+	& .form-element {
+		&.form-element-html{
+			padding: 0;
+			padding-right: 1rem;
+			margin-bottom: 0.5rem !important;
+		}
+		&.form-element-field8{
+			height: 65px;
+		}
 	}
 }
