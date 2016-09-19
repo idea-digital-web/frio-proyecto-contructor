@@ -50,11 +50,20 @@ Custom HEADER
 			& picture{
 				margin: 0 auto 1rem auto;
 			}
-			& div.site-search{
-				width: 65%;
-				margin-left: 2rem;
+			& div.site-search-container{
 				order: 2;
-				height: 0;
+				width: 65%;
+				& div.site-search{
+					width: 100%;
+					padding: 0 1rem;
+					height: 0;
+				}
+				& div.site-search-shadow{
+					background-image: url('images/shadow-search.png');
+					background-image: url('http://localhost/frio/blog/wp-content/uploads/2016/08/banner-header-2.png');
+					height: 3rem;
+					width: 100%;
+				}
 			}
 			& ul.site-header-cart.menu{
 				width: 25%;
@@ -210,3 +219,8 @@ a.button{
 .site-header-cart .widget_shopping_cart{
 	background-color: #24252B;
 }
+
+// .widget_product_search form::before,
+// .search-field{
+// 	border: 5px solid blue !important;
+// }
