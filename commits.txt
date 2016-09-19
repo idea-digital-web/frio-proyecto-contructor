@@ -1,3 +1,9 @@
+commit 17639b83023f36e7f1d3605f37a22421b62e7c62
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Sep 19 18:28:03 2016 -0400
+
+    Cambiado permisos de archivos a imagenes
+
 commit 2873ba199f47f7d30c32f600b811ed3a91bb05f7
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Sep 19 18:14:39 2016 -0400
