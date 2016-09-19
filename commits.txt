@@ -1,3 +1,9 @@
+commit 8cd33d5bc0726b1bb58820416c5d78b8929e1038
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Sat Sep 17 08:36:23 2016 -0400
+
+    Mejorado estilos de footer formcraft
+
 commit 4b4b7e97f84883f18a1b045c0020b68cc088fed9
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Sat Sep 17 08:27:08 2016 -0400
