@@ -82,34 +82,42 @@
 		input[type=text],
 		input[type=search] {
 			// padding: 1.387em 1.618em;
-			line-height: 3rem;
-			padding: 0 0 0 8rem !important;
+			line-height: 50px;
+			padding: 0 0 0 1rem !important;
 			font-size: 1.2rem;
 			font-style: italic;
-			border: 5px solid $white-nav-top;
+			border: 5px solid $border-search-color;
 			background-color: $white;
 			box-shadow: none !important;
+			margin-left: 7rem;
+			box-sizing: border-box;
 		}
 
 		form {
+			z-index: 2;
 			// Lupa o Buscar en la barra de búsqueda Ver en components/widgets
 			&:before {
 				// padding: 20.5px;
-				border: 5px solid $white-nav-top;
-				padding: 0 3rem;
+				// border: 5px solid $white-nav-top;
+				padding: 0 2rem;
 				font-size: 1.5rem;
-				line-height: 3rem;
-				background-color: $color-theme;
+				line-height: 60px;
+				// background-color: $color-theme;
+				// border-radius: 50px 0 0 0;
+				// background-image: url('http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/09/background-boton-search.png');
 				top: 0;
 				left: 0;
 				color: $white;
 				// display: none;
+				border-left: 2rem solid transparent;
+				border-bottom: 60px solid $color-theme; 
+				height: 0;
 			}
-			&:hover{
-				&:before {
-					background-color: $color-theme-hover;
-				}
-			}
+			// &:hover{
+			// 	&:before {
+			// 		background-color: $color-theme-hover;
+			// 	}
+			// }
 		}
 
 		// #searchsubmit {

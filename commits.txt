@@ -1,3 +1,9 @@
+commit b13460ba8e4721ee8654a8104a0adb0923177244
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Sep 20 12:35:27 2016 -0400
+
+    Mejorando estilo Icon Lupa Search
+
 commit 636691cb188b89add80b59703665dbcc15c75720
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Sep 20 12:26:48 2016 -0400
