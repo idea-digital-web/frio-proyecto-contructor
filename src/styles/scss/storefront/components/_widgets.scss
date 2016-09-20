@@ -94,7 +94,7 @@
 		&:before {
 			@include fa-icon(); // Icon Lupa de Búsqueda
 			content: "\f002"; // Icon Lupa de Búsqueda
-			content: "Buscar";
+			// content: "Buscar";
 			position: absolute;
 			top: 1em;
 			left: 1em;
