@@ -1,3 +1,9 @@
+commit c6d51f6ade76c3b11073a988a96f1a3b85819b7f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Sep 20 23:25:20 2016 -0400
+
+    Actualizada plantilla de woocommerce
+
 commit 112a1e5f2271ad2017a458e62757f27f72e0f957
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Sep 20 23:17:03 2016 -0400

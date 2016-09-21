@@ -304,16 +304,19 @@ button.menu-toggle {
 					}
 
 					&:before {
-						content: "";
+						content: $fa-var-circle;
 						display: block;
 						width: 2px;
-						// height: 30%;
-						height: 100%;
-						background-color: $secondary-color-theme;
 						position: absolute;
+						left: -5px;
+						font-size: 60%;
+						line-height: 37px;
+
+						// height: 30%;
+						//height: 100%;
+						//background-color: $secondary-color-theme;
 						// top: 37.5%;
-						top: 0%;
-						left: -3px;
+						//top: 0%;
 					}
 				}
 
