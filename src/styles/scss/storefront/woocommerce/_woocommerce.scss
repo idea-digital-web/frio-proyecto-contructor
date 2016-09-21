@@ -120,9 +120,9 @@
 			// }
 		}
 
-		// #searchsubmit {
-		// 	@include screen-reader-text();
-		// }
+		#searchsubmit {
+			@include screen-reader-text();
+		}
 	}
 }
 
