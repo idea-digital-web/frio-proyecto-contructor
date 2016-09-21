@@ -16,9 +16,7 @@ main.site-main>h2.section-title,
 	&:before,
 	&:after{
 		content: $fa-var-circle;
-		display: block;
 		width: 2px;
-		position: absolute;
 		left: -5px;
 		font-size: 60%;
 		line-height: 37px;
