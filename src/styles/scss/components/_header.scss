@@ -9,32 +9,33 @@ Custom HEADER
 		display: flex;
 		flex-flow: row wrap;
 		margin-top: 1rem;
-		& div.logo_header{
+		&>div.logo_header{
 			display: none;
 			@include respond-to(lg) {
 				display: flex;
 				align-items: center;
-				width: 275px;
-				height: 275px;
+				width: 300px;
+				height: 225px;
 				margin-right: 1rem;
 			}
 		}
-		& section.secondary_navigation_wrapper{
+		&>section.inner_container{
 			display: none;
 			@include respond-to(lg) {
+				box-sizing: border-box;
 				display: flex;
 				flex-flow: row wrap;
-				width: 67%;
-				box-sizing: border-box;
 				padding: 1rem 0;
+				width: 70%;
 				height: 0;
 			}
 			& picture{
 				// margin: 0 auto 1rem auto;
-				margin-top: 1rem;
+				margin-top: 6rem;
 			}
 			& div.site-search-container{
 				width: 65%;
+				height: 0;
 				& div.site-search{
 					width: 100%;
 					padding: 0 1rem 0 2rem;
