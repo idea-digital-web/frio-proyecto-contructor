@@ -255,7 +255,7 @@ button.menu-toggle {
 		margin-right: -99em;
 		padding-left: 99em;
 		padding-right: 99em;
-		margin-top: 1rem;
+		// margin-top: 1rem;
 	}
 
 	.main-navigation {
@@ -399,10 +399,16 @@ button.menu-toggle {
 		width: 100% !important;
 		margin: 0 auto !important;
 
+		>.menu-secundario-container{
+			border-left: 2rem solid transparent;
+			border-bottom: 60px solid $background-shadow;
+			margin-left: 30rem;
+		}
+
 		.menu {
 			font-size: .857em;
 			width: 100%;
-			text-align: center;
+			text-align: right;
 
 			> li:hover > a {
 				text-decoration: none;
@@ -413,6 +419,8 @@ button.menu-toggle {
 				position: relative;
 				color: $color_font_dark;
 				text-transform: uppercase;
+				height: 60px;
+				line-height: 24px;
 
 
 				&:before {

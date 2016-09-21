@@ -1,3 +1,9 @@
+commit d71ce3973f2f954daadbc88bd7efd4d93b035711
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Sep 20 21:30:47 2016 -0400
+
+    Cambiado boton dropdown del menu
+
 commit 2b9a4622eac5838bffa04613122487d1b04bec9e
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Sep 20 17:37:48 2016 -0400
