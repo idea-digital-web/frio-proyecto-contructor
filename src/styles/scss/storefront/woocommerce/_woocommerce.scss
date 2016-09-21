@@ -1945,9 +1945,6 @@ dl.variation {
  * Homepage
  */
 .storefront-product-section {
-	.section-title {
-		@extend .section_title;
-	}
 
 	&:last-child {
 		border-bottom: 0;
