@@ -166,6 +166,14 @@ Custom HEADER
 			}
 		}
 	}
+	&>nav.secondary-navigation{
+		&>.menu-secundario-container{
+			margin-left: 10rem;
+			&>ul.menu{
+				margin-right: 2rem;
+			}
+		}
+	}
 }
 /**
  * Barra de Navegación Principal

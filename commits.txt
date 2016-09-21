@@ -1,3 +1,9 @@
+commit 430014717350d4aa792433291eefc733fc36ecfe
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 21 12:05:59 2016 -0400
+
+    Optimizada estructura de header
+
 commit ddcf4eaa11150d594f96fd7ea58baee81cdcea0b
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 21 08:27:24 2016 -0400

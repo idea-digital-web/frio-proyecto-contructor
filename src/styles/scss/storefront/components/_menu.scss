@@ -251,11 +251,7 @@ button.menu-toggle {
 		clear: both;
 		@include clearfix;
 		background: $black;
-		margin-left: -99em;
-		margin-right: -99em;
-		padding-left: 99em;
-		padding-right: 99em;
-		// margin-top: 1rem;
+		text-align: center;
 	}
 
 	.main-navigation {
@@ -306,7 +302,6 @@ button.menu-toggle {
 					&:before {
 						content: $fa-var-circle;
 						display: block;
-						width: 2px;
 						position: absolute;
 						left: -5px;
 						font-size: 60%;
