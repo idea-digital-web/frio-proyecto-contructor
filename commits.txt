@@ -1,3 +1,9 @@
+commit 535d494626f6a3ed06a7c827bdeb8db66790997a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 21 21:47:01 2016 -0400
+
+    Mejorando form footer
+
 commit f8ddbe71ec2e67ecdc1122c8d471cf73ec5ad3ce
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 21 21:00:54 2016 -0400
