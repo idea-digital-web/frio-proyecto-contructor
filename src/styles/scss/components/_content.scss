@@ -13,7 +13,7 @@ main.site-main>h2.section-title,
 .page-content>h2,
 .storefront-product-section>h2.section-title{
 	@extend .section_title;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	&:before,
 	&:after{

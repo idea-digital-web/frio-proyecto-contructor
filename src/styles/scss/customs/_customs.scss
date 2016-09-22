@@ -84,17 +84,22 @@ h4 {
     @extend .custom_title;
 }
 .title__borderbottom{
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 2rem;
+    display: inline-block;
+    float: right;
+    // flex-flow: row nowrap;
+    // margin-bottom: 2rem;
     &>div.borderbottom{
-        width: 100px;
-        &:first-child{
-            border-top: 5px solid lightgray;
-        }
-        &:last-child{
-            border-top: 5px solid $color-theme;
-        }
+        width: 30rem;
+        height: 25px;
+        background-color: lightgray;
+        margin-top: 10px;
+        border-radius: 10px 0 0 10px;
+        // border-top: 5px solid lightgray;
+        // &:first-child{
+        // }
+        // &:last-child{
+        //     border-top: 5px solid $color-theme;
+        // }
     }
 }
 
