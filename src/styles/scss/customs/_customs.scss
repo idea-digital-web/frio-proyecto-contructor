@@ -93,6 +93,22 @@ h4 {
     }
 }
 
+.circle_title{
+    display: inline-flex;
+    align-items: center;
+    &:before,
+    &:after{
+        content: $fa-var-circle;
+        font-size: 50%;
+    }
+    &:before{
+        margin-right: 1rem;
+    }
+    &:after{
+        margin-left: 1rem;
+    }
+}
+
 .hide {
     display: none;
 }

@@ -13,19 +13,7 @@ main.site-main>h2.section-title,
 .page-content>h2,
 .storefront-product-section>h2.section-title{
 	@extend .section_title;
-	display: inline-flex;
-	align-items: center;
-	&:before,
-	&:after{
-		content: $fa-var-circle;
-		font-size: 50%;
-	}
-	&:before{
-		margin-right: 1rem;
-	}
-	&:after{
-		margin-left: 1rem;
-	}
+	@extend .circle_title;
 }
 .cross-sells>h2{
 	font-size: 1.65rem;
