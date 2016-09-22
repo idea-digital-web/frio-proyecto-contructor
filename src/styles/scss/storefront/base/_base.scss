@@ -123,6 +123,7 @@ li {
 	color: $color_body + #333;
 	padding: 0;
 	padding-bottom: 6rem;
+	padding-top: 3rem;
 	@include respond-to(md) {
 		padding-bottom: 3rem;
 	}
