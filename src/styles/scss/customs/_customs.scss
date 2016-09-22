@@ -78,28 +78,18 @@ h4 {
     }
 }
 .section_title{
-    // background: url('http://i0.wp.com/cerroverde.ideapruebas.com/wp-content/uploads/2016/08/bg-heading.png');
-    // background-repeat: no-repeat;
     color: $color-theme;
     @extend .custom_title;
 }
 .title__borderbottom{
     display: inline-block;
     float: right;
-    // flex-flow: row nowrap;
-    // margin-bottom: 2rem;
     &>div.borderbottom{
         width: 30rem;
         height: 25px;
         background-color: lightgray;
         margin-top: 10px;
         border-radius: 10px 0 0 10px;
-        // border-top: 5px solid lightgray;
-        // &:first-child{
-        // }
-        // &:last-child{
-        //     border-top: 5px solid $color-theme;
-        // }
     }
 }
 

@@ -1,3 +1,9 @@
+commit bf65b55cf2dc35699fc9759e8152f89e981cf14e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 21 20:44:05 2016 -0400
+
+    Agregada barra a los titulos
+
 commit b3d3230becfadac1522edd968e5870264f80c9cf
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 21 15:07:11 2016 -0400
