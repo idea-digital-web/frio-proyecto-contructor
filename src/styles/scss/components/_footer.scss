@@ -8,26 +8,26 @@
 	&__item{
 		box-sizing: border-box;
 		width: 100%;
-		&:nth-child(3){
+		&:nth-child(2){
 			display: none;
 		}
 		@include respond-to(md) {
 			width: 50%;
 		}
 		@include respond-to(lg) {
-			&:nth-child(2){
+			&:nth-child(1){
 				width: 37%;
 				margin-right: 3%;
 			}
 			// &:nth-child(3){
 			// 	display: none;
 			// }
-			&:nth-child(4){
+			&:nth-child(3){
 				border-left: 2px solid;
 				width: 27%;
 				padding-left: 2%;
 			}
-			&:nth-child(5){
+			&:nth-child(4){
 				width: 33%;
 			}
 		}
