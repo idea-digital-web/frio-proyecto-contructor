@@ -11,6 +11,15 @@
 		&:nth-child(2){
 			display: none;
 		}
+		&:nth-child(4){
+			>h2{
+				&:before,
+				&:after{
+					display: none;
+				}
+			}
+			width: 33%;
+		}
 		@include respond-to(md) {
 			width: 50%;
 		}
@@ -19,9 +28,6 @@
 				width: 37%;
 				margin-right: 3%;
 			}
-			// &:nth-child(3){
-			// 	display: none;
-			// }
 			&:nth-child(3){
 				border-left: 2px solid;
 				width: 27%;
