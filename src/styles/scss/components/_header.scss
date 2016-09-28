@@ -66,7 +66,7 @@ Custom HEADER
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
-		background-color: $white-nav-top;
+		background-color: $background-color-nav;
 		box-sizing: border-box;
 		&--item{
 			width: 100%;
@@ -83,7 +83,7 @@ Custom HEADER
 		&--welcome,
 		&--login a,
 		&--social a i{
-			color: $black;
+			color: white; //$black;
 			line-height: 2rem;
 		}
 		&--contact{
@@ -116,17 +116,21 @@ Custom HEADER
 					min-width: 50px;
 					color: $white;
 					font-weight: 300;
+					background-color: #5c5d69;
 					&:focus{
 						outline-color: transparent;
 					}
+					>span>i{
+						color: $third-theme-color;
+					}
 				}
 				&>ul{
-					background-color: $color-theme;
+					background-color: #5c5d69; //$color-theme;
 					box-sizing: border-box;
 					& li{
 						width: 100%;
 						&:hover{
-							background-color: $color-theme-hover;
+							background-color: #4a4b56; //$color-theme-hover;
 						}
 						&>a{
 							padding-left: 1rem;
@@ -166,24 +170,24 @@ Custom HEADER
 			}
 		}
 	}
-	&>nav.secondary-navigation{
-		&>.menu-secundario-container{
-			margin-left: 10rem;
-			&>ul.menu{
-				margin-right: 2rem;
-			}
-		}
-	}
+	// &>nav.secondary-navigation{
+	// 	&>.menu-secundario-container{
+	// 		margin-left: 10rem;
+	// 		&>ul.menu{
+	// 			margin-right: 2rem;
+	// 		}
+	// 	}
+	// }
 }
 /**
  * Barra de Navegación Principal
  */
-.main-navigation ul.menu ul.sub-menu{
-	background-color: $color-theme !important;
-	>li:hover{
-		background-color: $color-theme-hover !important;
-	}
-}
+// .main-navigation ul.menu ul.sub-menu{
+// 	background-color: $color-theme !important;
+// 	>li:hover{
+// 		background-color: $color-theme-hover !important;
+// 	}
+// }
 
 /**
  * Botones del Dropdown Menu al hacer hover en el carrito
