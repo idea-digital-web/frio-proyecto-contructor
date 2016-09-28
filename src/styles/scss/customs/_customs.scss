@@ -78,7 +78,7 @@ h4 {
     }
 }
 .section_title{
-    color: $color-theme;
+    color: $third-theme-color;
     @extend .custom_title;
 }
 .title__borderbottom{
@@ -98,6 +98,7 @@ h4 {
     align-items: center;
     &:before,
     &:after{
+        color: $color-theme;
         content: $fa-var-circle;
         font-size: 50%;
     }
