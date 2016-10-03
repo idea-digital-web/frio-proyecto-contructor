@@ -1,3 +1,9 @@
+commit 18a847ed27da469356cb969d2614c9cd7037b449
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Sep 28 16:54:39 2016 -0400
+
+    Mejorado google maps
+
 commit f4872b8472ecaa46ea23dca64cceebfa3f676b21
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 28 16:21:09 2016 -0400
