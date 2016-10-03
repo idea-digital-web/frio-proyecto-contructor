@@ -1,3 +1,9 @@
+commit 0a6d3fb252b692d6daf6882af10965cc2a9a8e80
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 15:28:19 2016 -0400
+
+    Cambiado logo
+
 commit 18a847ed27da469356cb969d2614c9cd7037b449
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Sep 28 16:54:39 2016 -0400
