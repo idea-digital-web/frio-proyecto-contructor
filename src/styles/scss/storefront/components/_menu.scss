@@ -220,6 +220,9 @@ button.menu-toggle {
 				top: 100%;
 				z-index: 99999;
 				display: none; // display: none; is required to make dropdowns work on touch devices
+				&.sub-menu{
+					background-color: $background-color-nav;
+				}
 
 				li {
 					width: 100%;
@@ -233,16 +236,16 @@ button.menu-toggle {
 
 	}
 
-	ul.menu {
-		li {
-			&.current-menu-item {
-				> a {
-					color: $color-theme;
-					font-weight: 700 !important;
-				}
-			}
-		}
-	}
+	// ul.menu {
+	// 	li {
+	// 		&.current-menu-item {
+	// 			> a {
+	// 				color: $color-theme;
+	// 				font-weight: 700 !important;
+	// 			}
+	// 		}
+	// 	}
+	// }
 
 	/**
 	 * Primary Navigation
@@ -405,8 +408,7 @@ button.menu-toggle {
 			border-left: 2rem solid transparent;
 			border-bottom: 60px solid #e6e6e6; //$background-shadow;
 			margin-left: 10rem;
-			// &>ul.menu{
-			// }
+
 			>.menu {
 				margin-right: 2rem;
 				font-size: .857em;
