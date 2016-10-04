@@ -1,3 +1,9 @@
+commit cc2389a89c25a23db3515e0b0bd494bb19988897
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 3 22:50:09 2016 -0400
+
+    Cambiado de color del icon de menu
+
 commit cd5f7c3e4189335e0bbcbf831ff932080fc0fd24
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 3 22:25:00 2016 -0400
