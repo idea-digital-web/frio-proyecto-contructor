@@ -226,6 +226,9 @@ button.menu-toggle {
 
 				li {
 					width: 100%;
+					&:hover{
+						background-color: $color-theme;
+					}
 					a {
 						width: 100%;
 						color: $white;
