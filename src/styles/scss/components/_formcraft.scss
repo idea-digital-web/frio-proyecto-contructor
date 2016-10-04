@@ -11,12 +11,12 @@ i.no-icon{
 	display: none;
 }
 .form-element-html .submit-button{
-	background-color: $callto-action-color !important;
+	background-color: $color-theme !important;
 	&:hover{
-		background-color: $callto-action-color-hover !important;
+		background-color: $color-theme-hover !important;
 	}
 }
-/** 
+/**
  * Form Footer
   * Agregar el ID del fc-form- correspondiente
  */
