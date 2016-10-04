@@ -223,6 +223,12 @@ button.menu-toggle {
 				&.sub-menu{
 					background-color: $third-theme-color !important;
 					width: 250px;
+					>li{
+						>a{
+							padding-top: 0.5em !important;
+							padding-bottom: 0.5em !important;
+						}
+					}
 				}
 
 				li {
@@ -233,8 +239,8 @@ button.menu-toggle {
 					a {
 						width: 100%;
 						color: $white;
-						padding-top: 0.5em !important;
-						padding-bottom: 0.5em !important;
+						// padding-top: 0.5em !important;
+						// padding-bottom: 0.5em !important;
 					}
 				}
 			}
