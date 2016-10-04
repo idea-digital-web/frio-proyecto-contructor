@@ -221,7 +221,7 @@ button.menu-toggle {
 				z-index: 99999;
 				display: none; // display: none; is required to make dropdowns work on touch devices
 				&.sub-menu{
-					background-color: $background-color-nav !important;
+					background-color: $third-theme-color !important;
 				}
 
 				li {
@@ -256,7 +256,7 @@ button.menu-toggle {
 	.storefront-primary-navigation {
 		clear: both;
 		@include clearfix;
-		background: $background-color-nav;
+		background: $third-theme-color;
 		text-align: center;
 	}
 
