@@ -25,7 +25,8 @@ Custom HEADER
 				box-sizing: border-box;
 				display: flex;
 				flex-flow: row wrap;
-				padding: 1rem 0;
+				// padding: 1rem 0; incluyendo el banner-header
+				padding: 5.5rem 0;
 				width: 70%;
 				height: 0;
 			}
