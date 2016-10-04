@@ -233,8 +233,8 @@ button.menu-toggle {
 					a {
 						width: 100%;
 						color: $white;
-						padding-top: 0.5em;
-						padding-bottom: 0.5em;
+						padding-top: 0.5em !important;
+						padding-bottom: 0.5em !important;
 					}
 				}
 			}
