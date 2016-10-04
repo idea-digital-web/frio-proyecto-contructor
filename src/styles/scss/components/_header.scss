@@ -167,7 +167,7 @@ Custom HEADER
 			& a{
 				margin: 0 5px;
 				&>i.fa:hover{
-					color: grey;
+					color: $color-theme-hover;
 				}
 			}
 		}
