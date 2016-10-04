@@ -222,6 +222,7 @@ button.menu-toggle {
 				display: none; // display: none; is required to make dropdowns work on touch devices
 				&.sub-menu{
 					background-color: $third-theme-color !important;
+					width: 250px;
 				}
 
 				li {
