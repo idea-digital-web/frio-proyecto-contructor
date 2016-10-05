@@ -1,3 +1,136 @@
+commit c0c3c715277c21833545863da62b6682461203a5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Oct 5 15:26:04 2016 -0400
+
+    Cambiado menu principal
+
+commit af122a59a625a3505f7404e735f566929a59ad49
+Merge: 9808121 a7ed0d8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Oct 5 14:38:36 2016 -0400
+
+    Merge branch 'master' of github.com:idea-digital-web/frio-proyecto-contructor
+
+commit a7ed0d8470faaf882486318e4a50fdb869acf1d4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 16:38:31 2016 -0400
+
+    Reducido alto de item en sub-menu
+
+commit 81a212d66dffac0e2a4365c1b61928f479b8162a
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 16:35:10 2016 -0400
+
+    Reducido alto de item en submenu
+
+commit 9eafebef805bd51209a0c712c6f69319663ac9ca
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 16:31:17 2016 -0400
+
+    Reducido alto de item en submenu
+
+commit 9d4fe1a75db9f8f447ee5d186b3e2e8312e5dade
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 15:26:43 2016 -0400
+
+    Agregado width a sub-menu
+
+commit 5083dc7d8c0fe11a149360f1bde6be654fb2fb73
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 15:18:42 2016 -0400
+
+    Cambiado redes sociales
+
+commit f3ea8203418868443b249f7ca9f58ec1ccde7714
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 15:01:48 2016 -0400
+
+    Reducido margen izquierdo de icon dropdown
+
+commit 9752890cd51dffa70332e0d838b17f084b94d7e7
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:55:00 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit 542beec19ca00e89a0a81ad58ec69ed556edff90
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:51:35 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit 63f8d3fadb565a7971b3155337cc9de0c05077cd
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:39:40 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit 3c775ab1c600f4aaa11ca426727896be3cfc51e8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:36:40 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit e32fc6b3af5e991fb0460ea72b600f16a364fe22
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 14:33:55 2016 -0400
+
+    Cambiado color de menu segundo nivel
+
+commit 201fec3e410567b652fa2c0e936c9b358d4ade01
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:59:58 2016 -0400
+
+    Cambiado font weidth
+
+commit d645497f728c994dd4695548a87a460c0a414def
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:46:56 2016 -0400
+
+    Cambiado color del boton del formulario
+
+commit c0a2f3e5dc345123cec97756e244c13855c27240
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:38:42 2016 -0400
+
+    cambiado url mymap
+
+commit 61b28eb66dd4458dc1cd6f6b799705da11bcd9ae
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:34:10 2016 -0400
+
+    agregado mapa a contactanos
+
+commit 5b0b7ba7527a29828889af0c03596fbf600d750b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:28:03 2016 -0400
+
+    arreglando estilos del header
+
+commit 89883372b0b070156a24975271f782d1a5389abb
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 11:11:49 2016 -0400
+
+    arreglando estilos del header
+
+commit 85eeb37b2e4f6fafe0fb427e78ddda75e02623a9
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:58:58 2016 -0400
+
+    Arreglando estilos de footer
+
+commit efb7b7d3fc8e8c1af30b6b4413befd030239b2c4
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:50:27 2016 -0400
+
+    Arreglando estilos de footer
+
+commit 9b759f2c99c4d059c1346bfb0b96674be4dcdb0d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Oct 4 10:36:16 2016 -0400
+
+    Arreglando estilos de footer
+
 commit 9808121bd766773456af9aa7691ca6bd7e7f0f5b
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Oct 4 07:14:09 2016 -0400

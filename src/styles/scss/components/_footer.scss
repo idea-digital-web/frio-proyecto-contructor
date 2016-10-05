@@ -11,14 +11,26 @@
 		&:nth-child(2){
 			display: none;
 		}
+		&:nth-child(3){
+			& span{
+				>p{
+					color: white;
+					// margin-top: 0;
+					>span.name{
+						font-weight: 700;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
 		&:nth-child(4){
+			width: 33%;
 			>h2{
 				&:before,
 				&:after{
 					display: none;
 				}
 			}
-			width: 33%;
 		}
 		@include respond-to(md) {
 			width: 50%;
