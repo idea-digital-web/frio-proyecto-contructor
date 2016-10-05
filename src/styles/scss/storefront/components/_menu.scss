@@ -220,12 +220,27 @@ button.menu-toggle {
 				top: 100%;
 				z-index: 99999;
 				display: none; // display: none; is required to make dropdowns work on touch devices
+				&.sub-menu{
+					background-color: $third-theme-color !important;
+					width: 250px;
+					>li{
+						>a{
+							padding-top: 0.5em !important;
+							padding-bottom: 0.5em !important;
+						}
+					}
+				}
 
 				li {
 					width: 100%;
+					&:hover{
+						background-color: $color-theme;
+					}
 					a {
 						width: 100%;
 						color: $white;
+						// padding-top: 0.5em !important;
+						// padding-bottom: 0.5em !important;
 					}
 				}
 			}
@@ -233,16 +248,16 @@ button.menu-toggle {
 
 	}
 
-	ul.menu {
-		li {
-			&.current-menu-item {
-				> a {
-					color: $color-theme;
-					font-weight: 700 !important;
-				}
-			}
-		}
-	}
+	// ul.menu {
+	// 	li {
+	// 		&.current-menu-item {
+	// 			> a {
+	// 				color: $color-theme;
+	// 				font-weight: 700 !important;
+	// 			}
+	// 		}
+	// 	}
+	// }
 
 	/**
 	 * Primary Navigation
@@ -250,7 +265,7 @@ button.menu-toggle {
 	.storefront-primary-navigation {
 		clear: both;
 		@include clearfix;
-		background: $background-color-nav;
+		background: $third-theme-color;
 		text-align: center;
 	}
 
@@ -336,7 +351,7 @@ button.menu-toggle {
 							// The dropdown indicator
 							@include fa-icon();
 							content: "\f107";
-							margin-left: 1em;
+							margin-left: 0.2em;
 						}
 					}
 				}
@@ -405,8 +420,7 @@ button.menu-toggle {
 			border-left: 2rem solid transparent;
 			border-bottom: 60px solid #e6e6e6; //$background-shadow;
 			margin-left: 10rem;
-			// &>ul.menu{
-			// }
+
 			>.menu {
 				margin-right: 2rem;
 				font-size: .857em;
