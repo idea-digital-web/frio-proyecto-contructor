@@ -239,25 +239,12 @@ button.menu-toggle {
 					a {
 						width: 100%;
 						color: $white;
-						// padding-top: 0.5em !important;
-						// padding-bottom: 0.5em !important;
 					}
 				}
 			}
 		}
 
 	}
-
-	// ul.menu {
-	// 	li {
-	// 		&.current-menu-item {
-	// 			> a {
-	// 				color: $color-theme;
-	// 				font-weight: 700 !important;
-	// 			}
-	// 		}
-	// 	}
-	// }
 
 	/**
 	 * Primary Navigation
@@ -299,7 +286,7 @@ button.menu-toggle {
 					font-style: italic;
 					color: $white;
 					@include respond-to(lg) {
-						font-size: 1.5rem;
+						font-size: 1.2rem;
 					}
 
 					&.current-menu-item,
@@ -324,7 +311,7 @@ button.menu-toggle {
 						position: absolute;
 						left: -5px;
 						font-size: 60%;
-						line-height: 37px;
+						line-height: 32px;
 
 						// height: 30%;
 						//height: 100%;
