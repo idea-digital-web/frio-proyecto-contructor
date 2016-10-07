@@ -1,3 +1,9 @@
+commit ba73f8eaf2f2bb976590d19104ebea9ecf0ad53e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Oct 6 18:30:18 2016 -0400
+
+    Cambiada imagenes de banners contenido
+
 commit e1d3386a7cd64ad9b88ecad1a746f40b1b079fda
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Oct 5 17:19:10 2016 -0400
