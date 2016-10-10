@@ -34,8 +34,6 @@
 		<!-- .col-full -->
 	</footer><!-- #colophon -->
 
-	<?php get_template_part( 'templates/footer', 'credits'); ?>
-
 	<?php do_action( 'storefront_after_footer' ); ?>
 
 </div><!-- #page -->

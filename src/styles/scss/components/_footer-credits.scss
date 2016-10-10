@@ -3,7 +3,8 @@
  * FOOTER CREDITS
  *-----------------------------------------------------------------------------------------
  */
-.site-footer__credits{
+.site-footer__credits,
+.site-info{
 	display: none;
 	@include respond-to(md) {
 		display: block;
@@ -29,7 +30,7 @@
 		}
 	}
 	& a{
-		color: $color-theme;
+		color: $color-theme !important;
 		font-weight: 300;
 		&:hover{
 			color: $color-theme-hover;

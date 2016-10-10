@@ -1,3 +1,9 @@
+commit 5e5d6102567b5ca6993e9dc9c7af1f6e30fab0fe
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 10 12:49:26 2016 -0400
+
+    optimizando footer
+
 commit de74c24132bea13430709405559aadf3569d520f
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 10 11:52:54 2016 -0400
