@@ -1,3 +1,9 @@
+commit ea76c51d764892fda3c5003ef8cef9bd38fa633b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Oct 7 10:18:13 2016 -0400
+
+    Optimizado gulpfile
+
 commit ba73f8eaf2f2bb976590d19104ebea9ecf0ad53e
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Oct 6 18:30:18 2016 -0400
