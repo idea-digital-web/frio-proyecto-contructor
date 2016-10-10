@@ -140,14 +140,6 @@ li {
 	a:not(.button) {
 		color: $color_links;
 	}
-
-	&>.col-full{
-		display: flex;
-		box-sizing: border-box;
-		flex-flow: row wrap;
-		width: 100%;
-		padding: 0;
-	}
 }
 
 .site-info {

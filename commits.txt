@@ -1,3 +1,9 @@
+commit de74c24132bea13430709405559aadf3569d520f
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 10 11:52:54 2016 -0400
+
+    Optimizando codigo de functions y login
+
 commit 7a761bc0a76226b302dbbbc1688625a362a699e1
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 10 11:25:52 2016 -0400
