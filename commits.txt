@@ -1,3 +1,9 @@
+commit d6866027e431d7b5ef8e36eda78ec8bc37e30d2b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Oct 10 17:18:58 2016 -0400
+
+    Optimizando hooks
+
 commit 873dddb91f7bd7968c6b03e2d24d17d7920fad62
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Oct 10 15:25:20 2016 -0400
