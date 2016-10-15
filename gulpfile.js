@@ -1,12 +1,12 @@
 var gulp = require('gulp'),
 browserSync = require('browser-sync'),
-reload = browserSync.reload,
 sass = require('gulp-sass'),
 sassGlob = require('gulp-sass-glob'),
 autoprefixer = require('gulp-autoprefixer'),
 cssnano = require('gulp-cssnano'),
 rename = require('gulp-rename'),
 browserify = require('browserify'),
+reload = browserSync.reload,
 source = require('vinyl-source-stream'),
 buffer = require('vinyl-buffer'),
 uglify = require('gulp-uglify'),
@@ -20,8 +20,8 @@ cache = require('gulp-cache'),
 del = require('del'),
 notify = require('gulp-notify'),
 plumber = require('gulp-plumber');
-// Instalar babel-preset-es2015 & gulp-sass-glob
-// sudo npm install --save-dev babel-preset-es2015 gulp-sass-glob
+// Instalar babel-preset-latest & gulp-sass-glob
+// sudo npm i -D babel-preset-latest babel-cli gulp-sass-glob
 
 var onError = function(err) {
   notify.onError({
@@ -133,7 +133,9 @@ var autoprefixerOptions = {
 // Scripts: todos los archivos JS concatenados en uno solo minificado
 gulp.task('build:scripts', () => {
   var presets = {
-    presets: 'es2015'
+    presets: [
+      'latest'
+    ]
   }
 
   return browserify(globs.scripts.main)
@@ -253,4 +255,3 @@ gulp.task('build', ['clean'], () => {
 gulp.task('default', ['build'], () => {
   gulp.start('copy', 'watch')
 })
-

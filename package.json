@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/alexballera/wp-theme-child#readme",
   "devDependencies": {
-    "babel-preset-es2015": "^6.5.0",
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
     "babelify": "^7.2.0",
     "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
