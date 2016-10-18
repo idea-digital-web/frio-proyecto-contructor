@@ -1,10 +1,10 @@
-var gulp = require('gulp')
-var sass = require('gulp-sass')
-var sassGlob = require('gulp-sass-glob')
-var autoprefixer = require('gulp-autoprefixer')
-var cssnano = require('gulp-cssnano')
-var notify = require('gulp-notify')
-var plumber = require('gulp-plumber')
+import gulp from 'gulp'
+import sass from 'gulp-sass'
+import sassGlob from 'gulp-sass-glob'
+import autoprefixer from 'gulp-autoprefixer'
+import cssnano from 'gulp-cssnano'
+import notify from 'gulp-notify'
+import plumber from 'gulp-plumber'
 
 // Styles: Compila SASS ~> CSS
 gulp.task('build:styles', ['loginCSS'], () => {
